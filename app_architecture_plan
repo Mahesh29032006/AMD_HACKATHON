@@ -1,0 +1,84 @@
+KrishiSetu/
+├── README.md
+├── pubspec.yaml
+├── .gitignore
+├── lib/
+│   ├── main.dart
+│   ├── screens/
+│   │   ├── home_screen.dart
+│   │   ├── animal_entry_screen.dart
+│   │   ├── pest_control_screen.dart
+│   │   ├── soil_health_screen.dart
+│   │   ├── market_price_screen.dart
+│   │   ├── disease_detection_screen.dart
+│   │   ├── voice_assistant_screen.dart
+│   │   ├── crop_cycle_screen.dart
+│   │   ├── voice_data_entry_screen.dart
+│   │   ├── sensors_screen.dart
+│   │   ├── plant_indexing_screen.dart
+│   │   ├── weather_alerts_screen.dart
+│   │   ├── productivity_screen.dart
+│   │   ├── govt_schemes_screen.dart
+│   │   ├── irrigation_screen.dart
+│   │   ├── fire_detection_screen.dart
+│   │   ├── iot_hub_screen.dart
+│   │   └── biofuel_screen.dart
+│   ├── models/
+│   │   ├── crop_model.dart
+│   │   ├── disease_model.dart
+│   │   ├── pest_model.dart
+│   │   ├── soil_model.dart
+│   │   ├── market_price_model.dart
+│   │   ├── weather_alert_model.dart
+│   │   ├── plant_index_model.dart
+│   │   ├── govt_scheme_model.dart
+│   │   └── user_model.dart
+│   ├── services/
+│   │   ├── offline_storage.dart        # SQLite helper + sync queue
+│   │   ├── sync_service.dart            # Firebase sync logic
+│   │   ├── ai_service.dart              # TensorFlow Lite wrapper
+│   │   ├── voice_service.dart            # Speech-to-text + TTS
+│   │   ├── location_service.dart         # GPS + offline maps
+│   │   ├── ble_service.dart              # BLE for future sensors
+│   │   ├── api_service.dart               # Online API calls (Agmarknet, IMD)
+│   │   ├── notification_service.dart      # Local notifications
+│   │   └── amd_integration.dart           # Placeholder for AMD hardware
+│   ├── utils/
+│   │   ├── constants.dart
+│   │   ├── helpers.dart
+│   │   ├── language_config.dart
+│   │   └── permission_handler.dart
+│   └── widgets/
+│       ├── custom_button.dart
+│       ├── loading_indicator.dart
+│       └── offline_banner.dart
+├── assets/
+│   ├── models/
+│   │   ├── disease_model.tflite          # placeholder
+│   │   ├── pest_model.tflite              # placeholder
+│   │   └── labels.txt
+│   ├── translations/
+│   │   ├── en.json
+│   │   ├── hi.json
+│   │   ├── ta.json
+│   │   ├── te.json
+│   │   ├── bn.json
+│   │   ├── mr.json
+│   │   └── pa.json
+│   ├── images/
+│   │   ├── app_icon.png
+│   │   ├── mockup_home.png
+│   │   ├── mockup_disease.png
+│   │   └── mockup_voice.png
+│   └── data/
+│       ├── crop_calendar.db              # SQLite pre-loaded
+│       ├── pest_treatments.db
+│       └── govt_schemes.db
+├── docs/
+│   ├── architecture.png
+│   ├── process_flow.png
+│   ├── amd_roadmap.md
+│   └── citations.md
+└── test/
+    ├── widget_test.dart
+    └── services_test.dart
