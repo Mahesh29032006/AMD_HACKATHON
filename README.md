@@ -1,6 +1,6 @@
 # AMD_HACKATHON
 Krishi_setu app including seamless integration with sensors would bring a fruitful tech revolution in Agriculture
-# 🌾 KrishiSetu - Offline-First Smart Farming Assistant
+# KrishiSetu - Offline-First || Multilingual || Ai powered Smart Farming Assistant
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.16-blue)](https://flutter.dev)
 [![TensorFlow Lite](https://img.shields.io/badge/TFLite-2.14-orange)](https://www.tensorflow.org/lite)
