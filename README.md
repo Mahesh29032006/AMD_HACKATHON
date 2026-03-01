@@ -10,10 +10,10 @@ Krishi_setu app including seamless integration with sensors would bring a fruitf
 ## 📋 Problem Statement
 
 India has 15-20 crore farmers, yet:
-- **40%** of villages have no reliable internet
+- tech fluency is lacking in villages though access of mobile and network is increasing
 - Existing apps (JioKrishi, Krishify) require continuous connectivity
 - Government schemes exclude **48 lakh+** farmers due to eKYC failures
-- Farmers need **18+ features** but get fragmented solutions
+- Farmers need all in one solution but get fragmented solutions in diff apps
 
 ## 💡 Solution: KrishiSetu
 
